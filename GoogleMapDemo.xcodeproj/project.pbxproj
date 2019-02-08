@@ -13,6 +13,7 @@
 		A899DAB6220C25DB008CC97D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A899DAB4220C25DB008CC97D /* Main.storyboard */; };
 		A899DAB8220C25DC008CC97D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A899DAB7220C25DC008CC97D /* Assets.xcassets */; };
 		A899DABB220C25DC008CC97D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A899DAB9220C25DC008CC97D /* LaunchScreen.storyboard */; };
+		A89B59A1220D9F6800D0B295 /* Simulator Screen Shot - iPhone 8 Plus - 2019-02-08 at 17.28.11.png in Resources */ = {isa = PBXBuildFile; fileRef = A89B59A0220D9F6800D0B295 /* Simulator Screen Shot - iPhone 8 Plus - 2019-02-08 at 17.28.11.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A899DAB7220C25DC008CC97D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A899DABA220C25DC008CC97D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A899DABC220C25DC008CC97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A89B59A0220D9F6800D0B295 /* Simulator Screen Shot - iPhone 8 Plus - 2019-02-08 at 17.28.11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 Plus - 2019-02-08 at 17.28.11.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		A899DAAF220C25DB008CC97D /* GoogleMapDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A89B59A0220D9F6800D0B295 /* Simulator Screen Shot - iPhone 8 Plus - 2019-02-08 at 17.28.11.png */,
 				A899DAB0220C25DB008CC97D /* AppDelegate.swift */,
 				A899DAB2220C25DB008CC97D /* ViewController.swift */,
 				A899DAB4220C25DB008CC97D /* Main.storyboard */,
@@ -85,7 +88,6 @@
 				26606F6A2454E0EA55E20B6F /* Pods-GoogleMapDemo.debug.xcconfig */,
 				8E132615F39DE029CF733F3F /* Pods-GoogleMapDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -150,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A899DABB220C25DC008CC97D /* LaunchScreen.storyboard in Resources */,
+				A89B59A1220D9F6800D0B295 /* Simulator Screen Shot - iPhone 8 Plus - 2019-02-08 at 17.28.11.png in Resources */,
 				A899DAB8220C25DC008CC97D /* Assets.xcassets in Resources */,
 				A899DAB6220C25DB008CC97D /* Main.storyboard in Resources */,
 			);
@@ -163,15 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-GoogleMapDemo-checkManifestLockResult.txt",
 			);
@@ -185,16 +184,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapDemo/Pods-GoogleMapDemo-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
