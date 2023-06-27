@@ -1,4 +1,4 @@
-# GoogleMapDemo
+# GoogleMapDemoForIOS
 
 Image
 
